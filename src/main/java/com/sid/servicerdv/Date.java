@@ -20,6 +20,9 @@ public class Date {
     @Id
     @GeneratedValue
     private Long id;
+    //needs tests
+    //private Long id_delegue;
+    //private Long id_visite;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private LocalDate date;
 
